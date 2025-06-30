@@ -7,6 +7,7 @@ import DareToExplore from '../Layout/MainContent/DareToExplore';
 import TourFilter from '../Layout/MainContent/TourFilter';
 import BlogPost from '../Layout/MainContent/Blog/BlogPost';
 import Offer from '../Layout/MainContent/Offer/Offer';
+import ExploreBangladesh from '../Layout/MainContent/ExploreBangladesh';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Explore/>
             <Reviews/>
             <ExotikPlaces/>
+            <ExploreBangladesh/>
             <DareToExplore/>
             <Offer/>
             <TourFilter/>
