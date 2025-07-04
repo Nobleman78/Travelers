@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaPhone, FaTwitter } from 'react-icons/fa';
 
 const Header = () => {
     return (
-        <div className='flex items-center justify-between font-semibold bg-black px-20 py-5 text-white'>
+        <div className='flex items-center justify-between  font-semibold bg-black px-20 py-5 text-white'>
             <div className='flex items-center gap-10'>
                 <div className='flex gap-3 items-center cursor-pointer'>
                     <h2>FOLLOW US: </h2>
@@ -17,7 +17,7 @@ const Header = () => {
                     <p>+880167893456</p>
                 </div>
             </div>
-            <button>LOGIN</button>
+            <button className='bg-yellow-500 px-4 py-1 cursor-pointer rounded-full'>LOGIN</button>
         </div>
     );
 };

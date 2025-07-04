@@ -1,6 +1,6 @@
 
-import mapBackground from '../../../assets/whiteMap.jpg'
-import seaImage from '../../../assets/Sea.webp'
+import mapBackground from '../../assets/whiteMap.jpg'
+import seaImage from '../../assets/Sea.webp'
 
 const Banner = () => {
     return (

@@ -7,7 +7,7 @@ const BlogCard = React.memo(({ imageUrl, title, date, comments }) => {
     return (
         <div className='flex flex-col gap-4'>
             <div className='overflow-hidden'>
-                <img className='w-full h-80 object-cover transition-transform duration-500 ease-in-out hover:scale-105'src={imageUrl}alt={title}  />
+                <img className='w-full h-80 object-cover transition-transform duration-500 ease-in-out hover:scale-105' src={imageUrl} alt={title} />
             </div>
             <h2 className='text-xl hover:text-yellow-500 mt-2'>{title}</h2>
             <div className='flex items-center justify-between text-gray-700 text-sm'> {/* Adjusted text size and color */}

@@ -1,13 +1,13 @@
 import React from 'react';
-import Banner from '../Layout/MainContent/Banner';
-import Explore from '../Layout/MainContent/Explore';
-import Reviews from '../Layout/MainContent/Reviews';
-import ExotikPlaces from '../Layout/MainContent/ExotikPlaces';
-import DareToExplore from '../Layout/MainContent/DareToExplore';
-import TourFilter from '../Layout/MainContent/TourFilter';
-import BlogPost from '../Layout/MainContent/Blog/BlogPost';
-import Offer from '../Layout/MainContent/Offer/Offer';
-import ExploreBangladesh from '../Layout/MainContent/ExploreBangladesh';
+import Banner from '../MainContents/Banner';
+import Explore from '../MainContents/Explore';
+import Reviews from '../MainContents/Reviews';
+import ExotikPlaces from '../MainContents/ExotikPlaces';
+import ExploreBangladesh from '../MainContents/ExploreBangladesh';
+import DareToExplore from '../MainContents/DareToExplore';
+import Offer from '../MainContents/Offer/Offer';
+import TourFilter from '../MainContents/Tourfilter';
+import BlogPost from '../MainContents/Blog/BlogPost';
 
 const Home = () => {
     return (
@@ -17,7 +17,7 @@ const Home = () => {
             <Reviews/>
             <ExotikPlaces/>
             <ExploreBangladesh/>
-            <DareToExplore/>
+            <DareToExplore/>   
             <Offer/>
             <TourFilter/>
             <BlogPost/>

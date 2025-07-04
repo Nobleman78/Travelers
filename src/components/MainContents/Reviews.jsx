@@ -1,6 +1,6 @@
 import React from 'react';
-import NaturalBeauty from '../../../assets/NaturalBeauty.avif';
-import BlackWorldMap from '../../../assets/BlackWorldMap.avif'
+import NaturalBeauty from '../../assets/NaturalBeauty.avif';
+import BlackWorldMap from '../../assets/BlackWorldMap.avif'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

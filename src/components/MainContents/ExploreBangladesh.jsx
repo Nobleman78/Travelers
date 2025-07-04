@@ -1,7 +1,7 @@
 import React from 'react';
-import Coxsbazar from '../../../assets/CoxsBazar.avif'
-import Sylet from '../../../assets/Sylet.avif'
-import Chittagong from '../../../assets/Chittagong.avif'
+import Coxsbazar from '../../assets/CoxsBazar.avif'
+import Sylet from '../../assets/Sylet.avif'
+import Chittagong from '../../assets/Chittagong.avif'
 
 
 const ExploreBangladesh = () => {

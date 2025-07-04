@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
-import RiverWithBoats from '../../../assets/RiverWithBoat.webp';
-import Brazil from '../../../assets/Brazil.avif';
-import RuralLife from '../../../assets/RuralLife.avif';
-import Pagoda from '../../../assets/Pagoda.avif';
-import Spain from '../../../assets/Spain.avif'
-import Nepal from '../../../assets/Nepal.avif'
-import America from '../../../assets/America.avif'
-import Mexico from '../../../assets/Maxico.avif'
-import Japan from '../../../assets/Japan.avif'
-import Australia from '../../../assets/Australia.avif'
-import China from '../../../assets/China.avif'
-import Europe from '../../../assets/Europe.avif'
+
+import RiverWithBoats from '../../assets/RiverWithBoat.webp';
+import Brazil from '../../assets/Brazil.avif';
+import RuralLife from '../../assets/RuralLife.avif';
+import Pagoda from '../../assets/Pagoda.avif';
+import Spain from '../../assets/Spain.avif'
+import Nepal from '../../assets/Nepal.avif'
+import America from '../../assets/America.avif'
+import Mexico from '../../assets/Maxico.avif'
+import Japan from '../../assets/Japan.avif'
+import Australia from '../../assets/Australia.avif'
+import China from '../../assets/China.avif'
+import Europe from '../../assets/Europe.avif'
 
 const ExotikPlaces = () => {
     const [seeMore, setSeeMore] = useState(false);

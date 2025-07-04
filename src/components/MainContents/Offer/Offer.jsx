@@ -1,10 +1,9 @@
-import React from 'react';
 import OfferCard from './OfferCard'; 
-import IndiaImage from '../../../../assets/India.avif';
-import Alaska from '../../../../assets/Alaska.avif';
-import Coconut from '../../../../assets/CoconutTree.avif';
-import Pyramid from '../../../../assets/Pyramids.avif';
-import AsianDiscovery from '../../../../assets/AsianDiscovery.avif';
+import IndiaImage from '../../../assets/India.avif';
+import Alaska from '../../../assets/Alaska.avif';
+import Coconut from '../../../assets/CoconutTree.avif';
+import Pyramid from '../../../assets/Pyramids.avif';
+import AsianDiscovery from '../../../assets/AsianDiscovery.avif';
 
 const Offer = () => {
     

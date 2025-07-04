@@ -1,5 +1,5 @@
 import React from 'react';
-import DaretoExplore from '../../../assets/DareToExplore.avif'
+import DaretoExplore from '../../assets/DareToExplore.avif'
 const DareToExplore = () => {
     return (
         <div className='mt-20 flex '>

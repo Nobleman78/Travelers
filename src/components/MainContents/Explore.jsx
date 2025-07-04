@@ -1,12 +1,12 @@
-import MexicoImage from '../../../assets/Mexico.avif'
-import ThailandImage from '../../../assets/Thailand.avif'
-import IndiaImage from '../../../assets/India.avif'
-import Switzerland from '../../../assets/Switchzerland.avif'
-import Nepal from '../../../assets/Nepal.avif'
-import America from '../../../assets/America.avif'
-import Chaina from '../../../assets/Chaina.avif'
-import Canada from '../../../assets/Canada.avif'
-import France from '../../../assets/France.avif'
+import MexicoImage from '../../assets/Mexico.avif'
+import ThailandImage from '../../assets/Thailand.avif'
+import IndiaImage from '../../assets/India.avif'
+import Switzerland from '../../assets/Switchzerland.avif'
+import Nepal from '../../assets/Nepal.avif'
+import America from '../../assets/America.avif'
+import Chaina from '../../assets/Chaina.avif'
+import Canada from '../../assets/Canada.avif'
+import France from '../../assets/France.avif'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
