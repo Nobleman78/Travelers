@@ -17,7 +17,7 @@ const Header = () => {
                     <p>+880167893456</p>
                 </div>
             </div>
-            <button className='bg-yellow-500 px-4 py-1 cursor-pointer rounded-full'>LOGIN</button>
+        
         </div>
     );
 };

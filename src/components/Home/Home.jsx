@@ -8,20 +8,19 @@ import ExploreBangladesh from "../MainContents/ExploreBangladesh";
 import Offer from "../MainContents/Offer/Offer";
 import Reviews from "../MainContents/Reviews";
 
-
-
 const Home = () => {
     return (
         <div>
-            <Banner/>
-            <Explore/>
-            <Reviews/>
-            <ExotikPlaces/>
-            <ExploreBangladesh/>
-            <DareToExplore/>   
-            <Offer/>
-            <BlogPost/>
-            <Airlines/>
+            {/* <Banner/> */}
+            <Explore />
+            <Offer />
+            <Reviews />
+            {/* <ExotikPlaces/> */}
+            <ExploreBangladesh />
+            {/* <DareToExplore/>    */}
+
+            {/* <BlogPost /> */}
+            {/* <Airlines /> */}
 
         </div>
     );

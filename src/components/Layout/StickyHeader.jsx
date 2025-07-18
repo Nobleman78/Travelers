@@ -6,22 +6,16 @@ import { useState } from 'react';
 
 const tabs = [
     { name: 'HOME', path: '/' },
-    { name: 'PAGES', path: '/pages' },
-    { name: 'DESTINATIONS', path: '/destinations' },
-    { name: 'TOURS', path: '/tours' },
-    { name: 'BLOG', path: '/blog' },
-    { name: 'SHOP', path: '/shop' },
-    { name: 'ELEMENTS', path: '/elements' },
+    { name: 'HOTEL', path: '/hotel' },
 ];
 
 const StickyHeader = () => {
-    const [activeTab, setActiveTab] = useState('HOME');
-    const [openSearchBar, setOpenSearchBar] = useState(false);
+    const [activeTab, setActiveTab] = useState('HOME')
     const [openSidebar, setOpenSidebar] = useState(false);
 
     return (
-        <div className='sticky top-0 z-50 bg-black/70 backdrop-blur px-20 py-5 flex items-center justify-around text-white'>
-            <img src={logo} alt='Logo' className='w-28' />
+        <div className='sticky top-0 z-50 bg-black/70 backdrop-blur  py-5 flex items-center justify-around px-10 text-white'>
+            <img src={logo} alt='Logo' loading='lazy' className='w-28' />
             <div className='flex items-center gap-10 font-semibold'>
                 {tabs.map((tab) => (
                     <NavLink
@@ -32,15 +26,10 @@ const StickyHeader = () => {
                         {tab.name}
                     </NavLink>
                 ))}
-                <div className='relative'>
-                    <FiShoppingCart className='hover:text-yellow-500 cursor-pointer' />
-                    <span className='w-4 h-4 rounded-full text-center absolute top-[-10px] right-[-10px] text-white flex items-center justify-center bg-yellow-400 text-xs'>0</span>
-                </div>
-                <FaSearch onClick={() => setOpenSearchBar(!openSearchBar)} className='hover:text-yellow-500 cursor-pointer' />
-                <div className='px-2 py-1 bg-yellow-400 cursor-pointer hover:bg-black'>
-                    <FiAlignCenter onClick={() => setOpenSidebar(!openSearchBar)} className='text-xl ' />
-                </div>
+
+
             </div>
+            <button className='bg-yellow-500 px-5 py-1 cursor-pointer rounded-2xl'>LOGIN</button>
             {openSidebar &&
                 <div className='absolute top-0  transition-transform duration-700 ease-in-out right-0 z-30 flex flex-col gap-5  text-white bg-black px-20  h-[600px]'>
                     <img className='w-40' src={logo} alt='' />

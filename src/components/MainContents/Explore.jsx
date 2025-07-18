@@ -24,9 +24,9 @@ const Explore = () => {
 
     };
     return (
-        <div className='px-10 '>
+        <div className='px-10 mt-20'>
             <div className='mb-10 flex flex-col gap-4'>
-                <h2 className='text-5xl text-center font-serif'>Explore Differnet Countries</h2>
+                <h2 className='text-5xl text-center font-serif'>Explore Differnet Hotels</h2>
                 <p className='text-center text-xl text-gray-700'>'The world is a book, and those who do not travel read only one page.' — St. Augustine</p>
             </div>
             <Slider className='flex gap-10' {...settings}>
